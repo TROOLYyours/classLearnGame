@@ -1,16 +1,4 @@
-'''
-class Cat:
-    def __init__(self):
-        self.y = 5
-        self.purr()
-    def purr(self):
-        print(purr)
-'''
-
-
-
-
-
+#!/usr/bin/env python3
 
  
 class Hero:
@@ -34,17 +22,18 @@ class Hero:
 
 
 
-char = Hero(input('what is your name?:'))
+if __name__ == "__main__":
+    char = Hero(input('what is your name?:'))
 
-print()
-print("Why hello there " + str(char.name))
-print()
+    print()
+    print("Why hello there " + str(char.name))
+    print()
 
-char.eat(input('what food do you want to eat?:'))
+    char.eat(input('what food do you want to eat?:'))
 
-print()
-print('okay then ' + str(char.name))
-print('current hp level: ' + str(char.hp))
+    print()
+    print('okay then ' + str(char.name))
+    print('current hp level: ' + str(char.hp))
 
 
 
